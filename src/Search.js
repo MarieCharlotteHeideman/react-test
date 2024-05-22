@@ -45,10 +45,6 @@ export default function Search() {
           <li>Temperature: {Math.round(weather.temperature)}°C </li>
           <li>Humidity: {weather.humidity}% </li>
           <li>Wind: {weather.wind}km/h </li>
-          <li>
-            {" "}
-            <img src={weather.icon} />
-          </li>
         </ul>
       </div>
     );
